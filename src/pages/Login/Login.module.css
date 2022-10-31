@@ -1,0 +1,53 @@
+.login{
+    margin-top: 1em;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    border-bottom: 1px solid #444;
+}
+
+.form{
+    margin-top: 2em;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 1.5rem;
+}
+
+.form > label{
+    display: flex;
+    gap: 0.5rem;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.iptnLogin{
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.btn{
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    background: #f44e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.btn:hover{
+    transition: 0.2s all;
+    background: rgba(209, 24, 24, 0.933);
+}

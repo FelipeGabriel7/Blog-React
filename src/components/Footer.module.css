@@ -1,0 +1,14 @@
+.end{
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    background: #000;
+    padding: 2rem;
+    color: #fff;
+    justify-content: space-around;
+}
+
+.copy{
+    font-weight: bold;
+    align-self: flex-end;
+}

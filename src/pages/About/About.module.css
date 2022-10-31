@@ -1,0 +1,29 @@
+.about{
+    margin-top: 5em;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.title{
+    border-bottom: 1px solid #444;
+}
+
+.text{
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    color: #7b7b7b;
+}
+
+.subtitle{
+    border-bottom: 1px solid #444;
+}
+
+.list{
+    list-style: square;
+    list-style-position: inside;
+    font-weight: 600;
+}

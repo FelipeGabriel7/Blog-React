@@ -1,0 +1,37 @@
+.container{
+    margin: 2em auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 100px;
+    color: rgba(57, 6, 139, 0.933);
+}
+
+.dashboard{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dashboardPost{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border: 1px solid #444;
+}
+
+.alteration{
+    display: flex;
+    gap: 1rem;
+    color: rgba(57, 6, 139, 0.933);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,51 @@
+.register{
+    margin: 2em auto;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    border-bottom: 1px solid #444;
+}
+
+.form{
+    display: flex;
+    padding: 2rem;;
+    color: rgb(0, 0, 0);
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+.form > label{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.iptn{
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.create{
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    background: #f44e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.create:hover{
+    transition: 0.2s all;
+    background: rgba(209, 24, 24, 0.933);
+}
