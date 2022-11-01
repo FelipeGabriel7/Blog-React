@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { useContextAuth } from '../../context/AuthContext';
 import { useFetchDocument } from '../../hooks/useFetchDocument';
@@ -13,8 +13,8 @@ export const Dashboard = () => {
 
   const { user } = useContextAuth();
   const userId = user.uid;
-  const { document: post, loading, error } = useFetchDocument("posts", null, userId)
-  const {deleteDocument , state } = useDelete("posts");
+  const { document: post, loading} = useFetchDocument("posts", null, userId)
+  const {deleteDocument } = useDelete("posts");
 
 
   return (

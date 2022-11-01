@@ -9,7 +9,7 @@ export const Login = () => {
   const [error , setError] = useState("");
   const [sucess , setSucess] = useState("");
 
-  const { LoginUser , error: AuthError , loading} = useAuth()
+  const { LoginUser } = useAuth()
 
   async function handleSubmit(e){
     e.preventDefault();

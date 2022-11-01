@@ -11,7 +11,7 @@ export const PostDetails = () => {
 
   const { id } = useParams()
   console.log(id)
-  const { document: posts , loading , error } = useDocument("posts" , id)
+  const { document: posts} = useDocument("posts" , id)
 
 
   return (
