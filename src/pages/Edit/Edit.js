@@ -5,7 +5,6 @@ import { useState } from "react";
 import styles from "./Edit.module.css";
 
 // hooks
-import { useInsert } from "../../hooks/UseInsert";
 import { useContextAuth } from "../../context/AuthContext";
 import { useNavigate, useParams } from "react-router-dom";
 import { useDocument } from "../../hooks/useDocument";

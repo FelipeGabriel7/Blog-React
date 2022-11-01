@@ -1,6 +1,6 @@
 import { useState , useEffect , useReducer } from 'react'
 import {db} from '../firebase/config';
-import { collection, doc , updateDoc } from 'firebase/firestore';
+import {  doc , updateDoc } from 'firebase/firestore';
 
 
 const stateInsert = {
@@ -39,7 +39,7 @@ export function useUpdate(docCollection){
     })
     try {
 
-      const updateRef = await doc(db , collection , id)
+      const updateRef = await doc(db , docCollection , id)
       const updateDocumentRef = await updateDoc(updateRef , database);
 
       verifyAndCanceled({

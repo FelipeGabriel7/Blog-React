@@ -45,3 +45,31 @@
     color: #fff;
     cursor: pointer;
 }
+
+.mobile{
+    display: none;
+    position: absolute;
+    padding: 1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    left: 10;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@media(max-width: 500px){
+    .items{
+        margin: 3em auto;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: flex-start;
+    }
+
+    .item{
+        border-bottom: 1px solid  #fff;
+    }
+    .mobile{
+        display: flex;
+    }
+}
