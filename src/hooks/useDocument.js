@@ -33,7 +33,7 @@ export const useDocument = (docCollection, title) => {
 
     setLoading(false);
     loadDocument();
-  }, [docCollection , title]);
+  }, [docCollection , title , canceled]);
 
   useEffect(() => {
     return () => setCanceled(true)
