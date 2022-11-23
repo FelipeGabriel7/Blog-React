@@ -13,7 +13,7 @@ export const Register = () => {
 
 
   const navigate = useNavigate();
-  const { createUser, error: authError, loading } = useAuth();
+  const { createUser, loading } = useAuth();
 
 
   async function handleIsSubmit(e) {
